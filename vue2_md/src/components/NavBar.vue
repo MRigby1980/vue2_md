@@ -17,7 +17,8 @@
           <md-tabs class="md-transparent" md-sync-route>
             <md-tab></md-tab>
             <md-tab id="tab-home" md-label="Home" to="/" exact></md-tab>
-            <md-tab id="tab-pages" md-label="About" to="/about"></md-tab>
+            <md-tab id="tab-about" md-label="About" to="/about"></md-tab>
+            <md-tab id="tab-reports" md-label="Reports" to="/reports"></md-tab>
           </md-tabs>
         </div>
       </md-app-toolbar>
@@ -34,6 +35,11 @@
           <md-list-item to="/about">
             <md-icon>analytics</md-icon>
             <span class="md-list-item-text">About</span>
+          </md-list-item>
+
+          <md-list-item to="/reports">
+            <md-icon>analytics</md-icon>
+            <span class="md-list-item-text">Reports</span>
           </md-list-item>
 
         </md-list>
